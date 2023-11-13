@@ -1,0 +1,1 @@
+char* mystrchr(char* str, char s);
