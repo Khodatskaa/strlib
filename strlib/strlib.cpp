@@ -1,6 +1,12 @@
 #include "strlib.h"
 
-int mystrlen(const std::string& str)
+int mystrlen(const char* str)
 {
-    return str.length();
+    int len = 0;
+
+    while (*str++ != '\0')
+    {
+        len++;
+    }
+    return len;
 }

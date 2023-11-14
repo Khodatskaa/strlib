@@ -1,16 +1,11 @@
 #include <iostream>
-#include <string>
 #include "strlib.h"
 using namespace std;
 
 int main()
 {
-    string userSentence;
-    cout << "Enter a sentence: ";
-    getline(cin, userSentence);
-
-    int length = mystrlen(userSentence);
-    cout << "Length of the sentence: " << length << endl;
-
-    return 0;
+	char str[1000];
+	cout << "Enter a string: ";
+	gets_s(str);
+	cout << "The length of string is: " << mystrlen(str) << endl;
 }
