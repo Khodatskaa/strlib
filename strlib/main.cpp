@@ -1,6 +1,6 @@
 #include <iostream>
 #include "strlib.h"
- using namespace std;
+using namespace std;
 
 int main()
 {
