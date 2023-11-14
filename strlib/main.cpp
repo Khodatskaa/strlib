@@ -4,15 +4,16 @@ using namespace std;
 
 int main() 
 {
-    const int MAX_LENGTH = 1000;
+    char str1[100];
+    char str2[100];
 
-    char str1[MAX_LENGTH];
-    cout << "Enter a sentence to copy: ";
-    cin.getline(str1, MAX_LENGTH);
+    cout << "Enter first string: ";
+    cin >> str1;
 
-    char str2[MAX_LENGTH];
+    cout << "Enter second string: ";
+    cin >> str2;
 
-    char* result = mystrcpy(str2, str1);
+    char* result = mystrcpy(str1, str2);
 
     cout << "Copied string: " << result << endl;
 
