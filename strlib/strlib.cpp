@@ -1,14 +1,14 @@
 #include "strlib.h"
 
-char* mystrchr(char* str, char s)
+char* mystrchr(char* str, char s) 
 {
-    while (*str != '\0')
+    while (*str != '\0') 
     {
-        if (*str == s)
+        if (*str == s) 
         {
-            return str;
+            return str;  
         }
         str++;
     }
-    return nullptr;
+    return nullptr;  
 }
